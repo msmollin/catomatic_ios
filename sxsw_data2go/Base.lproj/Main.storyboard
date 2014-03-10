@@ -149,7 +149,6 @@
                                     <outlet property="catNameLabel" destination="vjN-Zy-tRT" id="VM6-bY-PaY"/>
                                     <outlet property="catShortDescriptionLabel" destination="Q4y-QJ-Kpt" id="ezl-pJ-vr1"/>
                                     <outlet property="thumbImage" destination="aGk-Xb-etf" id="hvk-EP-8J5"/>
-                                    <segue destination="aEh-8P-5MO" kind="push" identifier="catDetailSegue" id="O8f-ky-nEQ"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

@@ -30,6 +30,7 @@
     static NSString *CellIdentifier = @"CatCell";
     SXMainCatListCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     // Configure the cell...
+    
     NSDictionary *catObject = [self.catArray objectAtIndex:indexPath.row];
     cell.catNameLabel.text = [catObject objectForKey:@"name"];
     cell.catShortDescriptionLabel.text = [catObject objectForKey:@"short_description"];
@@ -42,15 +43,17 @@
 
 #pragma mark - Navigation
 
+/***** Principle #2 : Reduce Verbosity *****/
+
 // In a story board-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([segue.identifier isEqualToString:@"catDetailSegue"])
-    {
-        SXCatDetailVC *catDetail = segue.destinationViewController;
-        NSIndexPath *selectedIndexPath = self.tableView.indexPathForSelectedRow;
-        catDetail.theCat = [self.catArray objectAtIndex:selectedIndexPath.row];
-    }
-}
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+//{
+//    if ([segue.identifier isEqualToString:@"catDetailSegue"])
+//    {
+//        SXCatDetailVC *catDetail = segue.destinationViewController;
+//        NSIndexPath *selectedIndexPath = self.tableView.indexPathForSelectedRow;
+//        catDetail.theCat = [self.catArray objectAtIndex:selectedIndexPath.row];
+//    }
+//}
 
 @end
