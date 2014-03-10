@@ -60,7 +60,6 @@
         SXLoginVC *strongSelf = weakSelf;
         strongSelf.data = responseObject;
         [strongSelf performSegueWithIdentifier:@"masterCatListSegue" sender:self];
-//        [manager.requestSerializer setValue:[responseObject objectForKey:@"access_token"] forHTTPHeaderField:@"access_token"];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
     }];
