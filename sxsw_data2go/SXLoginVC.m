@@ -46,24 +46,26 @@
 
 #pragma mark - Private Methods
 
+/***** Principle #1 : Reduce Round Trips *****/
+
 - (IBAction)loginButtonTapped:(id)sender
 {
-    [self beginLogin];
+//    [self beginLogin];
 }
 
-- (void)beginLogin
-{
-    SXAPIManager *manager = [SXAPIManager sharedInstance];
-    SXLoginVC __weak *weakSelf = self;
-    NSDictionary *parameters = @{@"email": self.emailTextField.text, @"password": self.passwordTextField.text};
-    [manager POST:@"/login" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        SXLoginVC *strongSelf = weakSelf;
-        strongSelf.data = responseObject;
-        [strongSelf performSegueWithIdentifier:@"masterCatListSegue" sender:self];
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        NSLog(@"Error: %@", error);
-    }];
-}
+//- (void)beginLogin
+//{
+//    SXAPIManager *manager = [SXAPIManager sharedInstance];
+//    SXLoginVC __weak *weakSelf = self;
+//    NSDictionary *parameters = @{@"email": self.emailTextField.text, @"password": self.passwordTextField.text};
+//    [manager POST:@"/login" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+//        SXLoginVC *strongSelf = weakSelf;
+//        strongSelf.data = responseObject;
+//        [strongSelf performSegueWithIdentifier:@"masterCatListSegue" sender:self];
+//    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+//        NSLog(@"Error: %@", error);
+//    }];
+//}
 
 - (void)handleSingleTap:(UITapGestureRecognizer *) sender
 {
@@ -72,14 +74,14 @@
 
 #pragma mark - Navigation
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([segue.identifier isEqualToString:@"masterCatListSegue"])
-    {
-        SXCatListTableVC *destVC = segue.destinationViewController;
-        destVC.catArray = [self.data objectForKey:@"cats"];
-    }
-}
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+//{
+//    if ([segue.identifier isEqualToString:@"masterCatListSegue"])
+//    {
+//        SXCatListTableVC *destVC = segue.destinationViewController;
+//        destVC.catArray = [self.data objectForKey:@"cats"];
+//    }
+//}
 
 #pragma mark - UITextField Delegate
 
