@@ -25,8 +25,6 @@
 		B544A30418CA8CD700DBE28F /* SXCatListTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B544A30218CA8CD700DBE28F /* SXCatListTableVC.m */; };
 		B544A30718CA926100DBE28F /* SXMainCatListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B544A30618CA926100DBE28F /* SXMainCatListCell.m */; };
 		B544A30818CA926100DBE28F /* SXMainCatListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B544A30618CA926100DBE28F /* SXMainCatListCell.m */; };
-		B5A8C3C218CD5715004FB5E8 /* SXCatDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A8C3C118CD5715004FB5E8 /* SXCatDetailVC.m */; };
-		B5A8C3C318CD5715004FB5E8 /* SXCatDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A8C3C118CD5715004FB5E8 /* SXCatDetailVC.m */; };
 		B5A8C3C718CD6211004FB5E8 /* SXAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A8C3C618CD6211004FB5E8 /* SXAPIManager.m */; };
 		B5A8C3C818CD6211004FB5E8 /* SXAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A8C3C618CD6211004FB5E8 /* SXAPIManager.m */; };
 		B5A8C3CB18CD68BA004FB5E8 /* question_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A8C3CA18CD68BA004FB5E8 /* question_mark.png */; };
@@ -70,8 +68,6 @@
 		B544A30218CA8CD700DBE28F /* SXCatListTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXCatListTableVC.m; sourceTree = "<group>"; };
 		B544A30518CA926100DBE28F /* SXMainCatListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXMainCatListCell.h; sourceTree = "<group>"; };
 		B544A30618CA926100DBE28F /* SXMainCatListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXMainCatListCell.m; sourceTree = "<group>"; };
-		B5A8C3C018CD5715004FB5E8 /* SXCatDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXCatDetailVC.h; sourceTree = "<group>"; };
-		B5A8C3C118CD5715004FB5E8 /* SXCatDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXCatDetailVC.m; sourceTree = "<group>"; };
 		B5A8C3C518CD6211004FB5E8 /* SXAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXAPIManager.h; sourceTree = "<group>"; };
 		B5A8C3C618CD6211004FB5E8 /* SXAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXAPIManager.m; sourceTree = "<group>"; };
 		B5A8C3CA18CD68BA004FB5E8 /* question_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question_mark.png; sourceTree = "<group>"; };
@@ -149,8 +145,6 @@
 				B544A30218CA8CD700DBE28F /* SXCatListTableVC.m */,
 				B544A30518CA926100DBE28F /* SXMainCatListCell.h */,
 				B544A30618CA926100DBE28F /* SXMainCatListCell.m */,
-				B5A8C3C018CD5715004FB5E8 /* SXCatDetailVC.h */,
-				B5A8C3C118CD5715004FB5E8 /* SXCatDetailVC.m */,
 				B526C82A18CA5B2200D0176C /* Supporting Files */,
 			);
 			path = sxsw_data2go;
@@ -338,7 +332,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B526C83A18CA5B2200D0176C /* SXLoginVC.m in Sources */,
-				B5A8C3C218CD5715004FB5E8 /* SXCatDetailVC.m in Sources */,
 				B544A30718CA926100DBE28F /* SXMainCatListCell.m in Sources */,
 				B544A30318CA8CD700DBE28F /* SXCatListTableVC.m in Sources */,
 				B5A8C3C718CD6211004FB5E8 /* SXAPIManager.m in Sources */,
@@ -352,7 +345,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B526C84F18CA5B2200D0176C /* sxsw_data2goTests.m in Sources */,
-				B5A8C3C318CD5715004FB5E8 /* SXCatDetailVC.m in Sources */,
 				B544A30818CA926100DBE28F /* SXMainCatListCell.m in Sources */,
 				B5A8C3C818CD6211004FB5E8 /* SXAPIManager.m in Sources */,
 				B544A30418CA8CD700DBE28F /* SXCatListTableVC.m in Sources */,

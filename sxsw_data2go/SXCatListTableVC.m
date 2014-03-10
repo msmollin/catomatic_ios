@@ -8,7 +8,6 @@
 
 #import "SXCatListTableVC.h"
 #import "SXMainCatListCell.h"
-#import "SXCatDetailVC.h"
 
 @implementation SXCatListTableVC
 
@@ -39,21 +38,5 @@
     
     return cell;
 }
-
-
-#pragma mark - Navigation
-
-/***** Principle #2 : Reduce Verbosity *****/
-
-// In a story board-based application, you will often want to do a little preparation before navigation
-//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-//{
-//    if ([segue.identifier isEqualToString:@"catDetailSegue"])
-//    {
-//        SXCatDetailVC *catDetail = segue.destinationViewController;
-//        NSIndexPath *selectedIndexPath = self.tableView.indexPathForSelectedRow;
-//        catDetail.theCat = [self.catArray objectAtIndex:selectedIndexPath.row];
-//    }
-//}
 
 @end
