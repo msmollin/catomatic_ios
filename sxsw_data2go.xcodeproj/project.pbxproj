@@ -14,13 +14,24 @@
 		B526C83018CA5B2200D0176C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B526C82F18CA5B2200D0176C /* main.m */; };
 		B526C83418CA5B2200D0176C /* SXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B526C83318CA5B2200D0176C /* SXAppDelegate.m */; };
 		B526C83718CA5B2200D0176C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B526C83518CA5B2200D0176C /* Main.storyboard */; };
-		B526C83A18CA5B2200D0176C /* SXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B526C83918CA5B2200D0176C /* SXViewController.m */; };
+		B526C83A18CA5B2200D0176C /* SXLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B526C83918CA5B2200D0176C /* SXLoginVC.m */; };
 		B526C83C18CA5B2200D0176C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B526C83B18CA5B2200D0176C /* Images.xcassets */; };
 		B526C84318CA5B2200D0176C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B526C84218CA5B2200D0176C /* XCTest.framework */; };
 		B526C84418CA5B2200D0176C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B526C82318CA5B2200D0176C /* Foundation.framework */; };
 		B526C84518CA5B2200D0176C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B526C82718CA5B2200D0176C /* UIKit.framework */; };
 		B526C84D18CA5B2200D0176C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B526C84B18CA5B2200D0176C /* InfoPlist.strings */; };
 		B526C84F18CA5B2200D0176C /* sxsw_data2goTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B526C84E18CA5B2200D0176C /* sxsw_data2goTests.m */; };
+		B544A30318CA8CD700DBE28F /* SXCatListTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B544A30218CA8CD700DBE28F /* SXCatListTableVC.m */; };
+		B544A30418CA8CD700DBE28F /* SXCatListTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B544A30218CA8CD700DBE28F /* SXCatListTableVC.m */; };
+		B544A30718CA926100DBE28F /* SXMainCatListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B544A30618CA926100DBE28F /* SXMainCatListCell.m */; };
+		B544A30818CA926100DBE28F /* SXMainCatListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B544A30618CA926100DBE28F /* SXMainCatListCell.m */; };
+		B5A8C3C218CD5715004FB5E8 /* SXCatDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A8C3C118CD5715004FB5E8 /* SXCatDetailVC.m */; };
+		B5A8C3C318CD5715004FB5E8 /* SXCatDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A8C3C118CD5715004FB5E8 /* SXCatDetailVC.m */; };
+		B5A8C3C718CD6211004FB5E8 /* SXAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A8C3C618CD6211004FB5E8 /* SXAPIManager.m */; };
+		B5A8C3C818CD6211004FB5E8 /* SXAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A8C3C618CD6211004FB5E8 /* SXAPIManager.m */; };
+		B5A8C3CB18CD68BA004FB5E8 /* question_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A8C3CA18CD68BA004FB5E8 /* question_mark.png */; };
+		B5A8C3CC18CD68BA004FB5E8 /* question_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = B5A8C3CA18CD68BA004FB5E8 /* question_mark.png */; };
+		E9291AE23C0643B4B4EE394C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68606D94A6C94EB793C81D7D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2090AF720CAC492CBDA1CD05 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		68606D94A6C94EB793C81D7D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B526C82018CA5B2200D0176C /* sxsw_data2go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sxsw_data2go.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B526C82318CA5B2200D0176C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B526C82518CA5B2200D0176C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +58,23 @@
 		B526C83218CA5B2200D0176C /* SXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXAppDelegate.h; sourceTree = "<group>"; };
 		B526C83318CA5B2200D0176C /* SXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXAppDelegate.m; sourceTree = "<group>"; };
 		B526C83618CA5B2200D0176C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B526C83818CA5B2200D0176C /* SXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXViewController.h; sourceTree = "<group>"; };
-		B526C83918CA5B2200D0176C /* SXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXViewController.m; sourceTree = "<group>"; };
+		B526C83818CA5B2200D0176C /* SXLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXLoginVC.h; sourceTree = "<group>"; };
+		B526C83918CA5B2200D0176C /* SXLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXLoginVC.m; sourceTree = "<group>"; };
 		B526C83B18CA5B2200D0176C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B526C84118CA5B2200D0176C /* sxsw_data2goTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sxsw_data2goTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B526C84218CA5B2200D0176C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B526C84A18CA5B2200D0176C /* sxsw_data2goTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sxsw_data2goTests-Info.plist"; sourceTree = "<group>"; };
 		B526C84C18CA5B2200D0176C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B526C84E18CA5B2200D0176C /* sxsw_data2goTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sxsw_data2goTests.m; sourceTree = "<group>"; };
+		B544A30118CA8CD700DBE28F /* SXCatListTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXCatListTableVC.h; sourceTree = "<group>"; };
+		B544A30218CA8CD700DBE28F /* SXCatListTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXCatListTableVC.m; sourceTree = "<group>"; };
+		B544A30518CA926100DBE28F /* SXMainCatListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXMainCatListCell.h; sourceTree = "<group>"; };
+		B544A30618CA926100DBE28F /* SXMainCatListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXMainCatListCell.m; sourceTree = "<group>"; };
+		B5A8C3C018CD5715004FB5E8 /* SXCatDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXCatDetailVC.h; sourceTree = "<group>"; };
+		B5A8C3C118CD5715004FB5E8 /* SXCatDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXCatDetailVC.m; sourceTree = "<group>"; };
+		B5A8C3C518CD6211004FB5E8 /* SXAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXAPIManager.h; sourceTree = "<group>"; };
+		B5A8C3C618CD6211004FB5E8 /* SXAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXAPIManager.m; sourceTree = "<group>"; };
+		B5A8C3CA18CD68BA004FB5E8 /* question_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question_mark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +85,7 @@
 				B526C82618CA5B2200D0176C /* CoreGraphics.framework in Frameworks */,
 				B526C82818CA5B2200D0176C /* UIKit.framework in Frameworks */,
 				B526C82418CA5B2200D0176C /* Foundation.framework in Frameworks */,
+				E9291AE23C0643B4B4EE394C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +109,7 @@
 				B526C84818CA5B2200D0176C /* sxsw_data2goTests */,
 				B526C82218CA5B2200D0176C /* Frameworks */,
 				B526C82118CA5B2200D0176C /* Products */,
+				2090AF720CAC492CBDA1CD05 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +129,7 @@
 				B526C82518CA5B2200D0176C /* CoreGraphics.framework */,
 				B526C82718CA5B2200D0176C /* UIKit.framework */,
 				B526C84218CA5B2200D0176C /* XCTest.framework */,
+				68606D94A6C94EB793C81D7D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,12 +137,20 @@
 		B526C82918CA5B2200D0176C /* sxsw_data2go */ = {
 			isa = PBXGroup;
 			children = (
+				B5A8C3C918CD68B3004FB5E8 /* Images */,
+				B5A8C3C418CD61BF004FB5E8 /* API */,
 				B526C83218CA5B2200D0176C /* SXAppDelegate.h */,
 				B526C83318CA5B2200D0176C /* SXAppDelegate.m */,
 				B526C83518CA5B2200D0176C /* Main.storyboard */,
-				B526C83818CA5B2200D0176C /* SXViewController.h */,
-				B526C83918CA5B2200D0176C /* SXViewController.m */,
+				B526C83818CA5B2200D0176C /* SXLoginVC.h */,
+				B526C83918CA5B2200D0176C /* SXLoginVC.m */,
 				B526C83B18CA5B2200D0176C /* Images.xcassets */,
+				B544A30118CA8CD700DBE28F /* SXCatListTableVC.h */,
+				B544A30218CA8CD700DBE28F /* SXCatListTableVC.m */,
+				B544A30518CA926100DBE28F /* SXMainCatListCell.h */,
+				B544A30618CA926100DBE28F /* SXMainCatListCell.m */,
+				B5A8C3C018CD5715004FB5E8 /* SXCatDetailVC.h */,
+				B5A8C3C118CD5715004FB5E8 /* SXCatDetailVC.m */,
 				B526C82A18CA5B2200D0176C /* Supporting Files */,
 			);
 			path = sxsw_data2go;
@@ -152,6 +185,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B5A8C3C418CD61BF004FB5E8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B5A8C3C518CD6211004FB5E8 /* SXAPIManager.h */,
+				B5A8C3C618CD6211004FB5E8 /* SXAPIManager.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B5A8C3C918CD68B3004FB5E8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B5A8C3CA18CD68BA004FB5E8 /* question_mark.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B526C85218CA5B2200D0176C /* Build configuration list for PBXNativeTarget "sxsw_data2go" */;
 			buildPhases = (
+				690EB8A7D4784AE69A0E5111 /* Check Pods Manifest.lock */,
 				B526C81C18CA5B2200D0176C /* Sources */,
 				B526C81D18CA5B2200D0176C /* Frameworks */,
 				B526C81E18CA5B2200D0176C /* Resources */,
+				0FEFFE95CD0743349857E673 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +283,7 @@
 			files = (
 				B526C83C18CA5B2200D0176C /* Images.xcassets in Resources */,
 				B526C82E18CA5B2200D0176C /* InfoPlist.strings in Resources */,
+				B5A8C3CB18CD68BA004FB5E8 /* question_mark.png in Resources */,
 				B526C83718CA5B2200D0176C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,18 +292,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5A8C3CC18CD68BA004FB5E8 /* question_mark.png in Resources */,
 				B526C84D18CA5B2200D0176C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FEFFE95CD0743349857E673 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		690EB8A7D4784AE69A0E5111 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B526C81C18CA5B2200D0176C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B526C83A18CA5B2200D0176C /* SXViewController.m in Sources */,
+				B526C83A18CA5B2200D0176C /* SXLoginVC.m in Sources */,
+				B5A8C3C218CD5715004FB5E8 /* SXCatDetailVC.m in Sources */,
+				B544A30718CA926100DBE28F /* SXMainCatListCell.m in Sources */,
+				B544A30318CA8CD700DBE28F /* SXCatListTableVC.m in Sources */,
+				B5A8C3C718CD6211004FB5E8 /* SXAPIManager.m in Sources */,
 				B526C83018CA5B2200D0176C /* main.m in Sources */,
 				B526C83418CA5B2200D0176C /* SXAppDelegate.m in Sources */,
 			);
@@ -261,6 +352,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B526C84F18CA5B2200D0176C /* sxsw_data2goTests.m in Sources */,
+				B5A8C3C318CD5715004FB5E8 /* SXCatDetailVC.m in Sources */,
+				B544A30818CA926100DBE28F /* SXMainCatListCell.m in Sources */,
+				B5A8C3C818CD6211004FB5E8 /* SXAPIManager.m in Sources */,
+				B544A30418CA8CD700DBE28F /* SXCatListTableVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +471,7 @@
 		};
 		B526C85318CA5B2200D0176C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2090AF720CAC492CBDA1CD05 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,6 +485,7 @@
 		};
 		B526C85418CA5B2200D0176C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2090AF720CAC492CBDA1CD05 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -461,6 +558,7 @@
 				B526C85418CA5B2200D0176C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B526C85518CA5B2200D0176C /* Build configuration list for PBXNativeTarget "sxsw_data2goTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +567,7 @@
 				B526C85718CA5B2200D0176C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
